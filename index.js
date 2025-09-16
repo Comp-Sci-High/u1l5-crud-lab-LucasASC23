@@ -19,12 +19,18 @@ console.log(playlist);
 // ----------------------------------
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
-
+let song={
+    title:undefined,
+    artist: undefined,
+    duration: undefined
+}
 
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
+song.ListenedTo=false;
 
 
 // Task 7: Delete the 'artist' property
+delete song.artist;
 
 
 // Commit your changes with an appropriate message.
